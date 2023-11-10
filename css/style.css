@@ -539,13 +539,21 @@ section {
   span {
     font-size: inherit;
   }
+  element.style {
+    background-size: cover;
+  }
+  .bg-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   .cart-btn i {
     font-size: 2rem;
   }
 
   .about {
-    background-image: url(assets/dan-gold-4_jhDO54BYg-unsplash.jpg);
+    background-image: url(img/fp1.jpg);
     background-attachment: fixed;
   }
 
@@ -589,7 +597,7 @@ section {
     justify-content: space-between;
     align-items: center;
     background-color: var(--white);
-    z-index: 99;
+    z-index: 90;
     overflow: hidden;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
