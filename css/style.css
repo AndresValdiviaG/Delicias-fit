@@ -527,7 +527,7 @@ section {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   * {
     font-size: 13px;
   }
@@ -539,10 +539,9 @@ section {
   span {
     font-size: inherit;
   }
-  element.style {
-    background-size: cover;
-  }
+
   .bg-img {
+    background-color: #43533d;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
