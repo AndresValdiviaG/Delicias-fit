@@ -527,7 +527,7 @@ section {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   * {
     font-size: 13px;
   }
@@ -541,7 +541,6 @@ section {
   }
 
   .bg-img {
-    background-color: #43533d;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
